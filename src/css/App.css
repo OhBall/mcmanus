@@ -1,0 +1,23 @@
+body {
+  background-color: #5f9393;
+  padding-top: 36px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #003333;
+  padding-right: 10px;
+}
+
+nav a {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.app {
+  width: 960px;
+  margin: 0 auto;
+}
