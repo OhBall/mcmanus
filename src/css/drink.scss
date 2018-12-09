@@ -1,0 +1,57 @@
+.drink {
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffface;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+    h3, h4 {
+      text-transform: uppercase;
+    }
+
+    h3 {
+      color: #cc2837;
+      font-size: 20px;
+      margin: 15px;
+    }
+
+    h4 {
+      color: #007777;
+      margin: 10px 0;
+    }
+
+    span {
+      font-size: 12px;
+      font-weight: lighter;
+      max-width: 147px;
+      align-self: center;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+
+      * {
+        margin-bottom: 8px;
+      }
+
+      li {
+        font-size: 14px;
+      }
+
+      img {
+        height: 95px;
+        width: 95px;
+        border-radius: 50px;
+        border: 2px red solid;
+
+        margin: 8px auto 5px;
+        box-shadow: 5px 5px 35px -6px rgba(0,0,0,0.75);
+      }
+    }
+  }
+}
