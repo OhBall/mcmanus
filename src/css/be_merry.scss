@@ -1,0 +1,90 @@
+.be-merry {
+  header {
+    height: 615px;
+
+    h1 {
+      position: relative;
+      top: -50px;
+      font-size: 140px;
+    }
+  }
+
+  section {
+    background-color: #ffface;
+    
+    p {
+      font-size: 16px;
+      text-align: center;
+      line-height: 21px;
+      
+      max-width: 728px;
+      padding: 20px 0  0;
+      margin: 0 auto;
+
+      &:first-of-type::first-letter {
+        font-size: 200%;
+        color: #007777;
+        font-weight: bold;
+      }
+    }
+
+    .fancy {
+      margin-top: 50px;
+    }
+  }
+
+  .reservations {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffface; 
+    padding: 40px 10px 0;
+    
+    img {
+      border: 2px solid red;
+      border-radius: 42px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      label {
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        margin-bottom: 18px;
+
+        textarea {
+          height: 80px;
+          padding: 10px;
+        }
+        
+        input, textarea {
+          width: 100%;
+          margin: 5px 0 0;
+          font-size: 14px;
+        }
+      }
+    }
+
+    button {
+      font-size: 18px;
+      padding: 8px 20px;
+      background-color: white;
+      border-radius: 5px;
+      outline: none;
+
+      &:hover {
+        background-color: #f4f4f4;
+      }
+
+      &:active {
+        background-color: #DEDEDE;
+      }
+    }
+  }
+
+}

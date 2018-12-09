@@ -1,0 +1,79 @@
+.eat {
+  .wings {
+    span {
+      color: #E2DE85;
+    }
+  }
+
+  .menu {
+    background-color: #ffface;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px 0;
+
+    section {
+      max-width: 33%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      h1 {
+        font-size: 30px;
+        font-weight: 700;
+        font-family: open-sans-condensed, sans-serif;
+        text-decoration: underline;
+      }
+
+      img {
+        margin-top: 20px;
+
+        &.food {
+          margin: 20px 0;
+        }
+      }
+
+      .menu-item {
+        margin: 5px 0;
+        font-family: open-sans, sans-serif;
+
+        .name-price {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          
+          h3 {
+            font-size: 14px;
+            font-weight: bold
+          }
+
+          h4{
+            margin-left: 4px;
+          }
+        }
+      }
+    }
+    
+    h2 {
+      color: #cc2837;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    h4 {
+      font-size: 10px;
+      max-width: 280px;
+      line-height: 14px;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    h3 + h4 {
+      font-size: 14px;
+    }
+
+  }
+}
