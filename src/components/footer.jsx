@@ -31,7 +31,7 @@ class Footer extends React.Component{
     return (
       <footer>
         <div className='news-letter'>
-              Sign up for new on specials, promotions, and unique events!
+              <span>Sign up for new on specials, promotions, and unique events!</span> 
               <form>
                 <input 
                   type='text' 

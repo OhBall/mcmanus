@@ -1,0 +1,100 @@
+.contact {
+  background-color: #ffface;
+  
+  header {
+    width: 960px;
+    height: 505px;
+    
+    h1 {
+      top: -30px;
+      left: 15px;
+      font-size: 140px;
+    }
+  }
+
+  .contact-info {
+    display: flex;
+    padding: 20px 20px 20px 60px;
+    justify-content: space-between;
+
+    section {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        line-height: 26px;
+
+        &.info {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          margin-top: 20px;
+
+          section {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            p, &.subway {
+              line-height: 20px;
+              
+              a {
+                color: #cf2a3e;
+                text-decoration: underline;
+              }
+            }
+
+            &.subway {
+              margin-left: 20px;
+
+              h2{
+                color: #cf2a3e;
+                font-weight: bold;
+                text-transform: uppercase;
+              }
+            }
+          }
+          
+
+          .hours {
+            margin: 15px 0;
+            line-height: 20px;
+          }
+        }
+
+        .hours {
+          display: grid;
+          grid-template-columns: 70px auto;
+        }
+      }
+      
+      p.big-start {
+        width: 256px;
+        padding-left: 15px;
+        
+        &:first-letter {
+          font-size: 200%;
+          color: #007777;
+          font-weight: bold;
+       }
+      }
+
+      img {
+        border-radius: 42px;
+      }
+    }
+  }
+}
+
+#map {
+  width: 342px;
+  height: 282px;
+  background-color: grey;
+  margin-top: 30px;
+}
